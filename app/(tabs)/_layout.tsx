@@ -29,6 +29,7 @@ const _Layout = () => {
   return (
     <Tabs
       screenOptions={{
+        tabBarHideOnKeyboard: true,
         tabBarShowLabel: false,
         tabBarItemStyle: {
           width: "100%",
@@ -40,7 +41,6 @@ const _Layout = () => {
           backgroundColor: "#0F0D23",
           borderRadius: 50,
           marginHorizontal: 15,
-          marginBottom: 36,
           height: 52,
           position: "absolute",
           overflow: "hidden",
